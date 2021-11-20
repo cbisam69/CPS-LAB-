@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int b, h, area;
+clrscr();
+printf("enter the values for b and h\n");
+scanf("%d%d",&b,&h);
+area=0.5*b*h;
+printf("Area of a triangle =%d",area);
+return 0;
+}
