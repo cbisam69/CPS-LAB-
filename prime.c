@@ -13,4 +13,5 @@ if(x==2)
 printf("its is a prime no");
 else
 printf("ITS NOT A Prime");
+return 0;
 }
