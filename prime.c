@@ -1,17 +1,22 @@
-#include<stdio.h>
-int main()
-{
-    int i,x=0,y;// y is the number &x is count of number of times y is divisible
-    printf("enter the number\n");
-    scanf("%d",&y);
-for(i=1;i<=y;i++)
-{
-    x++;
-    
-}
-if(x==2)
-printf("its is a prime no");
-else
-printf("ITS NOT A Prime");
-return 0;
+#include <stdio.h> 
+
+main() {
+  int n, i, c = 0;
+  printf("Enter any number n:");
+  scanf("%d", &n);
+
+  //logic
+  for (i = 1; i <= n; i++) {
+      if (n % i == 0) {
+         c++;
+      }
+  }
+
+  if (c == 2) {
+  printf("n is a Prime number");
+  }
+  else {
+  printf("n is not a Prime number");
+  }
+  return 0;    
 }
